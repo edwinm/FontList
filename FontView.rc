@@ -1,0 +1,319 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FONTVIEW_DIALOG DIALOGEX 0, 0, 206, 199
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "FontList 1.6"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,147,178,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,90,178,50,14
+    LTEXT           "Use FontList to view all installed fonts in your web browser.",
+                    IDC_STATIC,7,7,185,8
+    LTEXT           "Sample text (HTML)",IDC_STATIC,7,23,64,8
+    EDITTEXT        IDC_SAMPLE,7,34,192,36,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN | WS_VSCROLL
+    GROUPBOX        "Include fonts",IDC_STATIC,7,78,192,54
+    CONTROL         "&Symbol fonts",IDC_SYMBOL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,91,56,10
+    CONTROL         "&Non-English fonts",IDC_NONENGLISH,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,104,71,10
+    CONTROL         "&Raster fonts",IDC_RASTER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,117,54,10
+    EDITTEXT        IDC_PATH,7,151,148,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Browse...",IDC_SELECTFILE,157,151,42,14
+    LTEXT           "Save HTML file as",IDC_STATIC,7,140,60,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_FONTVIEW_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 192
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Dutch (Netherlands) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NLD)
+#ifdef _WIN32
+LANGUAGE LANG_DUTCH, SUBLANG_DUTCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\FontView.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "bitmap1.bmp"
+#endif    // Dutch (Netherlands) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 210, 79
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About FontList"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,12,10,20,20
+    LTEXT           "FontList Version 1.6",IDC_STATIC,40,10,63,8,SS_NOPREFIX
+    LTEXT           "Copyright © 2001-2012 Edwin Martin",IDC_STATIC,7,45,117,
+                    8
+    DEFPUSHBUTTON   "OK",IDOK,153,7,50,14,WS_GROUP
+    LTEXT           "This program is freeware",IDC_STATIC,40,23,78,8
+    LTEXT           "http://www.bitstorm.org/fontlist/",IDC_URL,101,61,102,8
+    LTEXT           "<edwin@bitstorm.org>",IDC_EMAIL,132,45,71,8
+    LTEXT           "FontList homepage",IDC_STATIC,7,61,61,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 69
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,6,0,0
+ PRODUCTVERSION 1,6,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "Edwin Martin\0"
+            VALUE "FileDescription", "Use FontList to view all installed fonts.\0"
+            VALUE "FileVersion", "1.6\0"
+            VALUE "InternalName", "FontList\0"
+            VALUE "LegalCopyright", "Copyright (C) 2001-2012 Edwin Martin\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "FontList.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "FontList\0"
+            VALUE "ProductVersion", "1.6\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x809, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      MOVEABLE PURE   "FontList.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "fontlist-all-gmg.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// HTML
+//
+
+HTMLHEADHTML            HTML    DISCARDABLE     "htmlhead.html"
+IDR_HTMLFONT HTML DISCARDABLE 
+BEGIN
+    0x643c, 0x7669, 0x6320, 0x616c, 0x7373, 0x223d, 0x616e, 0x656d, 0x2522, 
+    0x3e73, 0x3c0a, 0x2070, 0x6c63, 0x7361, 0x3d73, 0x7222, 0x6769, 0x7468, 
+    0x3e22, 0x3c0a, 0x7073, 0x6e61, 0x6320, 0x616c, 0x7373, 0x223d, 0x7562, 
+    0x7474, 0x6e6f, 0x2022, 0x6469, 0x273d, 0x6f66, 0x746e, 0x6557, 0x6769, 
+    0x7468, 0x6425, 0x3e27, 0x623c, 0x423e, 0x2f3c, 0x3e62, 0x2f3c, 0x7073, 
+    0x6e61, 0x0a3e, 0x733c, 0x6170, 0x206e, 0x6c63, 0x7361, 0x3d73, 0x6222, 
+    0x7475, 0x6f74, 0x226e, 0x6920, 0x3d64, 0x6627, 0x6e6f, 0x5374, 0x7974, 
+    0x656c, 0x6425, 0x3e27, 0x693c, 0x493e, 0x2f3c, 0x3e69, 0x2f3c, 0x7073, 
+    0x6e61, 0x0a3e, 0x733c, 0x6170, 0x206e, 0x6c63, 0x7361, 0x3d73, 0x6222, 
+    0x7475, 0x6f74, 0x226e, 0x6920, 0x3d64, 0x6627, 0x6e6f, 0x5374, 0x7a69, 
+    0x2565, 0x2764, 0x2b3e, 0x2f3c, 0x7073, 0x6e61, 0x0a3e, 0x733c, 0x6170, 
+    0x206e, 0x6c63, 0x7361, 0x3d73, 0x6222, 0x7475, 0x6f74, 0x226e, 0x6920, 
+    0x3d64, 0x6327, 0x6168, 0x4d72, 0x7061, 0x6425, 0x3e27, 0x6843, 0x7261, 
+    0x614d, 0x3c70, 0x732f, 0x6170, 0x3e6e, 0x3c0a, 0x702f, 0x0a3e, 0x703c, 
+    0x6320, 0x616c, 0x7373, 0x223d, 0x616e, 0x656d, 0x3e22, 0x623c, 0x253e, 
+    0x3c73, 0x622f, 0x203e, 0x7325, 0x2f3c, 0x3e70, 0x3c0a, 0x2070, 0x6c63, 
+    0x7361, 0x3d73, 0x6522, 0x6178, 0x706d, 0x656c, 0x2022, 0x6469, 0x223d, 
+    0x2566, 0x2264, 0x7320, 0x7974, 0x656c, 0x223d, 0x6f66, 0x746e, 0x662d, 
+    0x6d61, 0x6c69, 0x3a79, 0x2520, 0x2273, 0x253e, 0x3c73, 0x702f, 0x0a3e, 
+    0x2f3c, 0x6964, 0x3e76, 0x0a0d, "\012" 
+END
+
+IDR_HTMLFOOTER HTML DISCARDABLE 
+BEGIN
+    0x2f3c, 0x6f62, 0x7964, 0x0a3e, 0x2f3c, 0x7468, 0x6c6d, 0x0a3e
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About FontList..."
+    IDS_SAMPLE              "The Five Boxing Wizards Jump Quickly<br>\r\n<small>0123456789\\ !?@#$%&*""€ éèë</small>"
+END
+
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\FontView.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
